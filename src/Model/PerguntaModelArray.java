@@ -22,6 +22,7 @@ public class PerguntaModelArray implements Serializable {
 		return p;
 	}
 	
+	// Correta
 	public PerguntaModel getAlternativaCorreta() {
 		for(PerguntaModel a: array) {
 			if(a.getResultado())
